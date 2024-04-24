@@ -832,6 +832,14 @@ header {
       display: flex;
       flex-direction: column;
       width: auto; }
+      #sobre_nosotros .sobreNosotrosResponsive h3 {
+        font-size: 20px;
+        font-family: oswald;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: white;
+        text-align: center; }
       #sobre_nosotros .sobreNosotrosResponsive__container1 {
         display: flex;
         align-items: center; }
@@ -842,11 +850,6 @@ header {
           color: white;
           text-align: center;
           padding: 10px; }
-          #sobre_nosotros .sobreNosotrosResponsive__container1__contenido1 h3 {
-            font-size: 16px;
-            font-family: oswald;
-            font-weight: bold;
-            margin-top: 0; }
           #sobre_nosotros .sobreNosotrosResponsive__container1__contenido1 p {
             font-size: 14px; }
       #sobre_nosotros .sobreNosotrosResponsive__container2 {
