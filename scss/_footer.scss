@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 1rem;
+    
+    .footer__texto{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(42, 41, 41);
+  }}
+
+  @media (max-width: 465px){
+
+    .footer{
+      display: none;
+    }
+  }
+  

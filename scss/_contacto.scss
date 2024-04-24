@@ -1,0 +1,222 @@
+#contacto{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,49,121,1) 36%, rgba(0,212,255,1) 100%);
+    height: 70rem;
+    .titulocontacto{
+        height: 13rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        margin-top: 8rem;
+        margin-bottom: -2rem;
+        color: #4babd3;
+    }
+    .lineacontacto{
+        box-sizing: content-box;
+        height: 0.5rem;
+        overflow: visible;
+        width: 62rem;
+        margin-left: 58rem;
+        background-color: #4babd3;
+        margin-bottom: 5rem;
+    }
+    .columnas-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        iframe{
+        display: grid;
+        margin-left: 2rem;
+        width: 84rem;
+        height: 50rem;
+        }
+        .filas-contacto{
+            background-color: #4f80e2;
+            margin-right: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .granContainer{
+                background-color: rgb(52, 96, 185) ;
+                border-radius: 20px;
+                box-shadow: inset 3px 3px 8px rgb(36, 59, 105),
+                inset -3px -3px 8px rgb(80, 122, 204) ;
+                height: 90%;
+                width: 60%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .parrafocontacto{
+                    font-size: 2.5rem;
+                    line-height: 1.5rem;
+                }
+                .redesContainer{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-bottom: 10%;
+                    #redes{
+                        display: flex;
+                        font-size: 18px;
+                        align-items: center;
+                        
+                        .logos{
+                            width: 45px;
+                            height: 45px;
+                            margin-right: 10px;
+                            box-shadow: 4px 4px 8px rgb(48, 48, 136);
+                            border-radius: 10px;
+                           
+                        }
+                        #wapp{
+                            border-radius: 10px;
+                        }
+                        #gmail{
+                            border-radius: 5px;
+                            height:38px ;
+                            width: 43px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 465px){
+
+    #contacto{
+        background: rgba(2, 62, 138, 1);
+        height: 400px;
+        .titulocontacto{
+            margin: 0;
+            font-size: 24px;
+            height: 37px;
+        }
+        .lineacontacto{
+            display: none;
+        }
+        .columnas-contacto{
+            display: flex;
+            flex-direction: column;
+            iframe{
+                height: 122px;
+                width: 234px;
+                align-self: center;
+                box-shadow: 10px 19px 11px rgba(0, 0, 0, 0.25) ;
+                border-radius: 5px;
+                margin-left: 0;
+                
+            }
+            .filas-contacto{
+                background-color: transparent;
+                .granContainer{
+                    background-color: transparent;
+                    width: 100%;
+                    border-radius: 0;
+                    box-shadow: none;
+                    .parrafocontacto{
+                        margin-left: 4rem;
+                        color: white;
+                        font-size: 14px;
+
+                    }
+                    .redesContainer{
+                        height: 160px;
+                        #redes{
+                            color:rgba(173, 232, 244, 1) ;
+                            font-size: 13px;
+                            width: 400px;
+                            margin-left: 10rem;
+
+                            .logos{
+                                height: 20px;
+                                width: 20px;
+                                border-radius: 1px;
+                                box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+
+                            }
+                            #wapp{
+                                border-radius: 5px;
+                            }
+                            #gmail{
+                                height: 17px;
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+       }
+    }
+}
+
+
+// #formulario{
+//     margin: 0 auto;
+//     width: 646px;
+//     height: 33rem;
+//     box-sizing: border-box;
+//     font-size: 1rem;
+//     display: grid;
+//     background-color:#314e8984;
+//     border-radius: 2%;
+//     padding: 1rem 5rem 1rem 5rem;
+                              
+//         p{
+//         display: grid;
+//         font-size: 2rem;
+//         justify-content: center;
+//         margin-top: 1rem;
+//         margin-bottom: 10px;
+//         margin-left: 11rem;
+//         padding: 1rem;
+//         }   
+        
+//         .itemsformulario{
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: space-between;
+//             text-align: center;
+//         }
+
+//         #name{
+//             width: 26rem;
+//             height: 2.3rem;
+//             margin-top: 6rem;
+//             margin-left: -17rem;
+//         }
+//         #mail{
+//             width: 26rem;
+//             height: 2.3rem;
+//             margin-top: 6rem;
+//             margin-left: -13rem;
+//             position: relative;
+//             left: -3rem;
+//         }
+//         .formularioconsulta{
+//             display: grid;
+//             justify-content: center;
+//             line-height: 1.5rem;
+
+//             p{
+//                 margin-left: 2rem;
+//                 margin-bottom: 0rem;
+//             }
+            
+//             #msg{
+//                 width: 58rem;
+//                 height: 10rem;
+//             }
+//         }
+//         .botonenviar{
+//             #botonsend{
+//                 width: 26rem;
+//                 height: 3rem; 
+//                 position: relative;
+//                 left: 20rem;
+//                 margin-top: 2rem;
+//             }
+//         }
+//     }            

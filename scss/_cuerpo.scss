@@ -1,0 +1,129 @@
+
+#inicio{
+.hero{
+    position: relative;
+    .imgResponsive{
+        display: none;
+    }
+}
+
+.hero img{
+    margin-top: 18rem; 
+    background-size: cover;
+    height: 44.2rem;
+    width: 100%;
+    position: relative;
+}
+    
+    .contenido-hero{   
+    height: 100%;
+    width: 100%;     
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    
+    .boton{
+    position: absolute;
+    background-color: #15cdca7b;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    padding: 2rem 2rem;
+    width: 11rem;
+    text-align: center;
+    top: 40rem;
+    }
+}
+
+.frase1 {
+    -webkit-box-shadow: 1px 0px 6px 2px rgba(0,0,0,0);
+    box-shadow: 1px 0px 6px 2px rgba(0,0,0,0.27);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,49,121,1) 36%, rgba(0,212,255,1) 100%);
+    padding: 4rem;
+    p{
+    text-align: center;
+    color:aliceblue;
+    align-items: center;
+    font-size: 4rem; 
+     }
+}
+
+.main {
+    display: flex;
+    color: rgb(240, 248, 255) ;
+    margin: 15rem 15rem 12rem 30rem;
+    h3{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+}
+
+.col0{
+    margin-right: 4rem;
+}
+
+.col{
+    border-left: groove;
+    width: 35rem;
+    height: 25rem;
+}
+}
+
+@media (max-width: 465px){
+
+    #inicio{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        background: linear-gradient(rgba(3, 4, 94, 1),rgba(3, 4, 94, 1));
+        height: auto;
+        .contenido-hero{
+            margin-top: 156px;
+            height: 200px;
+            .boton{
+                width: 103px;
+                height: 43px;
+                padding: 1.2rem 0 0 0;
+                text-align: center;
+                margin-top: 14rem;
+                background-color: rgba(202, 240, 248, 0.53);
+                box-shadow:9px 13px 4.2px rgba(0, 0, 0, 0.25)  ;
+            }
+        }
+        .hero{
+            margin: 0px;
+            // height: 22rem;
+            .imgResponsive{
+                display: block;
+                margin-top: -33rem;
+                height: 200px;
+                position: absolute;
+                // box-shadow:8px 18px 10px rgba(0, 0, 0, 0.25)  ;
+            }
+            .img{
+                display: none;
+                // margin-top: -33rem;
+                // height: 200px;
+                // position: absolute;
+                // box-shadow:8px 18px 10px rgba(0, 0, 0, 0.25)  ;
+            }
+        }
+        .frase1{
+            margin-top: 175px;
+            background: none;
+            box-shadow: none;
+            padding: 0px 4rem 0px 4rem;
+            p{
+                font-size: 24px;
+                color: rgba(202, 240, 248, 1);
+            }
+            .main{
+                display: none;
+            }
+        }
+    }
+
+}

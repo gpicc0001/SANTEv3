@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>SANTÉ- KINESIOLOGÍA DEPORTIVA</title>
+    <link rel="preload" href="css.css/normalize.css" as="style">
+    <!-- <link rel="stylesheet" href="css.css/normalize.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="icon" href="img/logo_sante2.png" type="">
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="headerContainer">
+            <div class="headerContainer__titulos">
+                <h1>SANTÉ</h1>
+            </div>
+
+            <div class="contenedorheader">
+                <img id="imagenheader" src="img/logo_sante2.png" alt="Imagen Sante">
+                <h2 class="h2">Kinesiología deportiva</h2>
+            </div>
+        </div>
+        <button id="abrirBurger" class="menuBurger" > <img src="./img/menu_burguer.png"/></button>
+        <nav id="navBurger" class="navegador__indice">
+            <button id="cerrarBurger" class="cerrarButton"><i class="bi bi-x-lg"></i></button>
+            <div class="navList">
+                <a id="links" href="#inicio" class="active">INICIO</a>
+                <a id="links" class="navList__Servicios" href="#servicios">SERVICIOS</a>
+                <a id="links" href="#sobre_nosotros">SOBRE NOSOTROS</a>
+                <a id="links" href="#coberturas">COBERTURAS</a>
+                <a id="links" href="#contacto">CONTACTO</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="inicio">
+        <div class="hero">
+            <img class="imgResponsive" src="./img/inidiceAjustada.png" alt="">
+            <img class="img" src="./img/indice.jpg">
+        </div>
+        <div class="contenido-hero">
+            <a class="boton" href="#contacto">TURNOS</a>
+        </div>
+
+        <div class="frase1">
+            <p> Volvé a competir...más rápido, mejor preparado. <br>Recuperate como un <b>profesional.</b></p>
+            <div class="main">
+                <div class="col0">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-barbell" width="48"
+                            height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M2 12h1" />
+                            <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2" />
+                            <path d="M6 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-10a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1z" />
+                            <path d="M9 12h6" />
+                            <path d="M15 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-10a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1z" />
+                            <path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2" />
+                            <path d="M22 12h-1" />
+                        </svg>
+                    </p>
+                    <h3>Gimnasio kinésico</h3>
+                </div>
+
+                <div class="col">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stretching"
+                            width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M16 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                            <path d="M5 20l5 -.5l1 -2" />
+                            <path d="M18 20v-5h-5.5l2.5 -6.5l-5.5 1l1.5 2" />
+                        </svg>
+                    </p>
+                    <h3>Trabajos de campo</h3>
+                </div>
+
+                <div class="col">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brain" width="48"
+                            height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f0c2d3" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" />
+                            <path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" />
+                            <path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" />
+                            <path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" />
+                            <path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" />
+                            <path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" />
+                        </svg>
+                    </p>
+                    <h3>Evaluación y tratamiento <br>del Sistema Nervioso Autónomo</h3>
+                </div>
+
+                <div class="col">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkup-list"
+                            width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                            <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+                            <path d="M9 14h.01" />
+                            <path d="M9 17h.01" />
+                            <path d="M12 16l1 1l3 -3" />
+                        </svg>
+                    </p>
+                    <h3>Evaluaciones de fuerza y <br>funcionales </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="fondoservicios">
+            <h2 class="tituloservicios">SERVICIOS</h2>
+            <hr class="tituloservicios-hr">
+
+            <main>
+                <div class="columnasserv">
+
+                    <div class="colum1">
+                        <img class="portadatexto1" src="img/servicio1.jpg">
+                        <button id="texto1">Kinesiología</button>
+                        <dialog id="popup1">
+                            <div class="recuadrop1">
+                                <h2 id="tituloPopup1">Kinesiología</h2>
+                                <p class="parrafop1">En "Santé" nos centramos en la atención personalizada de cada
+                                    paciente (Paciente-Kinesiólogo) en sesiones de 1 hs de duración donde nuestro eje
+                                    central esta en la comunicación para luego diseñar un plan de tratamiento basado en
+                                    los objetivos planteados en conjunto.</p>
+                                <p class="parrafop1">Evaluaciones funcionales, Evaluaciones biomecánicas, Evaluaciones
+                                    de fuerza máxima, Evaluación y tratamiento del Sistema nervioso autónomo (S.N.A
+                                    Integrativo).</p>
+                                <p class="parrafop1">Instalaciones acorde a las demandas de todo tipo de rehabilitación
+                                    con lo último en fisioterapia de última generación, terapias manuales, evaluaciones
+                                    funcional y gimnasio terapéutico que incluye la tecnología isoinercial con Polea
+                                    cónica de sobrecarga excéntrica.</p>
+                                <img id="comunic" src="img/two-persons-talking-sharing-sitting-on-a-table.png">
+                                <p id="comunicp"><b>COMUNICACIÓN COMO BASE DEL ÉXITO.</b></p>
+                                <p id="planteo"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-target-arrow" width="56" height="56"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                                        <path d="M12 7a5 5 0 1 0 5 5" />
+                                        <path d="M13 3.055a9 9 0 1 0 7.941 7.945" />
+                                        <path d="M15 6v3h3l3 -3h-3v-3z" />
+                                        <path d="M15 9l-3 3" />
+                                    </svg></p>
+                                <p id="planteob"><b>PLANTEO DE OBJETIVOS POR ETAPAS.</b></p>
+                                <img id="planificacion" src="img/icons8-exercise-list-96.png">
+                                <p id="planifp"><b>PLANIFICACIÓN DEL TRATAMIENTO Y CARGAS.</b></p>
+                            </div>
+                            <div class="carrousel">
+                                <div class="imagenespopup1">
+                                    <img src="img/solapa kinesiologia/vendaje_funcional.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/evaluaciones_funcionales.png"
+                                        class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/tapping.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/go_foot.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/pistola_masajeadora.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/bfr_training.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/trabajo_decampo.jpg" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/gimkinesico.jpg" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/cinturon_ruso.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/rehabilitacion_manguito.png"
+                                        class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/lesionmuñeca.jpg" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/trabajo_core.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/gimnasio2.jpg" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/gimnasio.jpg" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/bici.png" class="img_carrousel">
+                                    <img src="img/solapa kinesiologia/polea_cronica.png" class="img_carrousel">
+                                </div>
+                                <div class="buttonContainer">
+                                    <button id="prevButton" onclick="prevSlide1()">Anterior</button>
+                                    <button id="nextButton" onclick="nextSlide1()">Siguiente</button>
+                                </div>
+                            </div>
+
+                            <button id="cierretexto1">Cerrar</button>
+                        </dialog>
+                    </div>
+
+                    <div class="colum2">
+                        <img class="imgserv" src="img/servicio2.jpg">
+                        <button id="texto2">Kinesiología deportiva</button>
+                        <dialog id="popup2">
+                            <div class="recuadrop2">
+                                <h2 id="tituloPopup2">Kinesiología deportiva</h2>
+                                <p class="parrafop2">Especialista en lesiones del deporte con amplia experiencia en el
+                                    área, formando parte del cuerpo médico de distintos clubes como: <b>Club Social San
+                                        Martin de Burzaco, Club Deportivo</b> y <b>mutual Leandro N. Alem</b>, y en la
+                                    <b>I. C. D. Pedro Echagüe </b> - equipo de Básquet que disputa el torneo Federal de
+                                    Básquet.</p>
+                                <p class="parrafop2">En 2014 formé parte del cuerpo médico de la <b>A.A. Argentinos
+                                        Juniors</b>, comenzando mi carrera como encargado de las divisiones inferiores y
+                                    del plantel de reserva.</p>
+                                <p class="parrafop2">En 2015 comencé a formar parte del Staff de la primera división
+                                    como kinesiólogo del Plantel Profesional, participando en distintos torneos de
+                                    prestigio nacional e internacional como la Copa Sudamericana, Copa Argentina, Copa
+                                    de la Superliga, Superliga, etc.</p>
+                                <p class="parrafop2">En 2020 tuve la oportunidad de trabajar en el Club Atlético
+                                    Platense, siendo el kinesiólogo del plantel profesional en La Liga Nacional de
+                                    básquet desde la temporada 2020-2021 hasta la temporada 2022-2023. </p>
+                                <p class="parrafop2">En la actualidad me encuentro trabajando con las selecciones
+                                    <b>juveniles de fútbol de Venezuela</b>. En 2023 pude cumplir uno de mis mayores
+                                    sueños, participe de la Copa del Mundo sub-17 en Indonesia. </p>
+                                <p class="parrafop2">Profesional de consulta de distintos deportistas profesionales de
+                                    varias disciplinas: Boxeadores como el internacional Lenier Peró boxeador olímpico
+                                    cubano de la división de peso pesados, Fabián T.N.T Maidana boxeador profesional de
+                                    la división superligero; Rugby, Tenis, etc.</p>
+                                <div class="escudos">
+                                    <img class="escudosimg"
+                                        src="img/Logotipo_de_la_Federación_Venezolana_de_Fútbol.svg.png">
+                                    <img class="escudosimg" src="img/platense.png" alt="platense-escudo">
+                                    <img class="escudosimg" src="img/argentinajuniors.png" alt="argentinajr-escudo">
+                                    <img class="escudosimg" src="img/icdpe.png" alt="icdpe-escudo">
+                                    <img class="escudosimg" src="img/cdma.png" alt="cdma-escudo">
+                                    <img class="escudosimg" src="img/Escudo_Sanma.png" alt="burzaco-esudo">
+                                </div>
+                                <div class="imgpop2">
+                                    <div class="carrousel2">
+                                        <div class="imagenespopup2">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/FVF_0967.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/IMG-20231223-WA0011.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/IMG_4369.JPG">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/platense 23.png">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/platense.png">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/WpawWZi0i2QLUAhFZ7u47tp3XkUExTaGuJfcnBylNpM=_plaintext_638354800955546921.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/69365593_2659563597429901_5038232861409280_n.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/69406171_2659563354096592_7920204201047621632_n.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/69560594_2659563507429910_9168919393504067584_n.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/69742184_2659563530763241_2818022424811929600_n.jpg">
+                                            <img class="img_carrousel2"
+                                                src="img/solapa kinesiologia/kinedeportiva/87177424_3037890086263915_50018068142751744_n.jpg">
+                                        </div>
+                                        <div class="buttonContainer2">
+                                            <button id="prevButton2" onclick="prevSlide2()">Anterior</button>
+                                            <button id="nextButton2" onclick="nextSlide2()">Siguiente</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="cierretexto2">Cerrar</button>
+                            </div>
+                        </dialog>
+                    </div>
+
+                    <div class="colum3">
+                        <img class="imgserv3" src="img/servicio3.jpg">
+                        <button id="texto3">Mep Sports Concept</button>
+                        <dialog id="popup3">
+                            <div class="recuadrop3">
+                                <h2 id="tituloPopup3">Mep Sports Concept</h2>
+                                <div class="parrafop3">
+                                    <p>Consiste en la aplicación de una corriente galvánica en el orden de
+                                        microamperios, en forma percutánea (con una aguja de acupuntura) con el fin de
+                                        generar, entre otros efectos: Analgesia / Regeneración del tejido /
+                                        Normalización del pH local.</p>
+                                    <p>MEP Sport Concept revolucionó la fisioterapia deportiva y ya es usada por la
+                                        mayoría de los equipos de fútbol en Argentina y varias selecciones de múltiples
+                                        disciplinas en América Latina. Consigue resultados en una sola aplicación en
+                                        patologías que otros agentes no consiguen resolver. Ideal en patologías agudas,
+                                        subagudas y crónicas donde otros recursos fallan:</p>
+                                </div>
+                                <div class="cajalistap3">
+                                    <div id="listapop3">
+                                        <p id="tendinitis">- Tendinitis</p>
+                                        <p>- Tendinosis</p>
+                                        <p>- Síndrome del supraespinoso</p>
+                                        <p>- Manguito rotador</p>
+                                        <p>- Codo de tenista</p>
+                                        <p>- Codo de golfista</p>
+                                        <p>- Síndrome fémoro- patelar</p>
+                                        <p>- Rotuliano</p>
+                                        <p>- Aquiles</p>
+                                        <p>- Pubalgias</p>
+                                        <p>- Fascitis plantas</p>
+                                        <p>- Fibrosis</p>
+                                        <p>- Lesiones musculares (desgarros sub-agudos y crónicos)</p>
+                                        <p>- Puntos gatillo</p>
+                                    </div>
+                                </div>
+                                <div class="imgpop3">
+                                    <div class="carrousel3">
+                                        <img class="img_carrousel3" src="img/solapa kinesiologia/mep/mep_sport.png" />
+                                        <img class="img_carrousel3"
+                                            src="img/solapa kinesiologia/mep/70356942_2715193561866904_3754378840697208832_n.jpg" />
+                                        <img class="img_carrousel3"
+                                            src="img/solapa kinesiologia/mep/terapias_manuales.png" />
+                                        <!-- <div class="buttonContainer3">
+                             <button id="prevButton3" onclick="prevSlide()">Anterior</button>
+                             <button id="nextButton3" onclick="nextSlide()">Siguiente</button>
+                        </div> -->
+                                    </div>
+                                </div>
+                                <button id="cierretexto3">Cerrar</button>
+                            </div>
+                        </dialog>
+                    </div>
+
+                    <div class="colum4">
+                        <img class="imgserv4" src="img/servicio4.jpg">
+                        <button id="texto4">SNA integrativo</button>
+                        <dialog id="popup4">
+                            <div class="recuadrop4">
+                                <h2 id="tituloPopup4">SNA Integrativo</h2>
+                                <h3>LLEVAMOS EL DIAGNÓSTICO Y EL TRATAMIENTO MÁS ALLÁ</h3>
+                                <div class="parrafop4">
+                                    <p>Evaluacion del sistema nervioso autonomo (SNA) y la función Vagal (Nervio Vago).
+                                    </p>
+                                    <p>El SNA controla las funciones involuntarias del cuerpo como son la respiración,
+                                        la frecuencia cardíaca, la digestión etc.</p>
+                                    <p>Se divide en sistema nervioso SIMPÁTICO y sistema nervioso PARASIMPÁTICO. Estos
+                                        dos sistemas trabajan en conjunto para mantener un equilibrio o HOMEOSTASIS.</p>
+                                    <p>El sistema nervioso SIMPÁTICO se activa en situaciones de estrés o de emergencia
+                                        (reflejo de huida del peligro) lo que provoca un aumento frecuencia cardíaca,
+                                        frec respiratoria, dilatación bronquial y disminución de la digestión.</p>
+                                    <p>El sistema nervioso PARASIMPATICO se activa en situaciones de descanso y
+                                        relajación se encarga de la digestión, dilatación bronquial y estimula la
+                                        digestión (principal regulador de la energía).</p>
+                                    <p>La VARIABILIDAD DE LA FRECUENCIA CARDÍACA (HRV) es una gran herramienta para
+                                        evaluar el sistema nervioso autónomo y la capacidad del cuerpo de adaptarse a
+                                        distintos escenarios.</p>
+                                    <p>El nervio vago es un importante regulador del sistema nervioso autónomo y juega
+                                        un papel crucial en la respuesta del cuerpo al estrés, la inflamación y la
+                                        enfermedad.</p>
+                                    <p>Se ha encontrado que la disfunción del nervio vago está relacionada con el
+                                        desarrollo y la progresión de ciertas enfermedades. Por ejemplo, la disfunción
+                                        del nervio vago se ha relacionado con la inflamación crónica, lo que puede
+                                        aumentar el riesgo de desarrollar enfermedades inflamatorias como la artritis
+                                        reumatoide y la enfermedad de Crohn. También se ha demostrado que la disfunción
+                                        del nervio vago está relacionada con el desarrollo de enfermedades
+                                        cardiovasculares, incluyendo la hipertensión arterial y la enfermedad coronaria.
+                                    </p>
+                                    <p>El nervio vago desempeña un papel importante en el desarrollo y la progresión de
+                                        enfermedades. La disfunción del nervio vago puede aumentar el riesgo de
+                                        enfermedades inflamatorias y cardiovasculares, mientras que la estimulación del
+                                        nervio vago puede tener efectos beneficiosos en la inflamación y la salud
+                                        mental.</p>
+                                    <p>Hoy estamos muy felices de poder contarles que en Santé Kinesiología Deportiva
+                                        estamos creciendo, llévalo el diagnóstico más allá para poder brindarte las
+                                        mejores herramientas para tu recuperación.</p>
+                                    <p>Patologías que abordamos con SNA:</p>
+                                </div>
+                                <div class="cajalistap4">
+                                    <div id="listatexto4">
+                                        <p id="lumbalgia">- Lumbalgia crónica.</p>
+                                        <p>- Trastornos del sueño.</p>
+                                        <p>- Ansiedad.</p>
+                                        <p>- Patologías crónicas.</p>
+                                        <p>- Estrés crónico.</p>
+                                        <p>- Inflamación crónica.</p>
+                                        <p>- Migrañas.</p>
+                                    </div>
+                                </div>
+                                <div class="imgpop4">
+                                    <div class="carrousel4">
+                                        <img class="img_carrousel4"
+                                            src="img/solapa kinesiologia/snv/871577_fa64b63e159c410ca43a89e59c1c6cfb~mv2.jpg" />
+                                        <img class="img_carrousel4" src="img/solapa kinesiologia/snv/servicio4.jpg" />
+
+                                        <!-- <div class="buttonContainer4">
+                                <button id="prevButton4" onclick="prevSlide()">Anterior</button>
+                                <button id="nextButton4" onclick="nextSlide()">Siguiente</button>
+                        </div> -->
+                                    </div>
+                                    <button id="cierretexto4">Cerrar</button>
+                                </div>
+                        </dialog>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <section id="sobre_nosotros" class="sobre_nosotros">
+        <div class="sobreNosotrosResponsive">
+            <div class="sobreNosotrosResponsive__container1">
+                <img src="./img/emilianoAjustada.png" alt="Emiliano">
+                <div class="sobreNosotrosResponsive__container1__contenido1">
+                    <h3>Licenciado Emiliano Urruchúa</h3>
+                    <p> Egresado de la Universidad Fundación H. A. Barceló en el año 2011. En 2014 culminé mis estudios en el Posgrado en la Universidad Favaloro siendo Especialista en lesiones del deporte, defendiendo mi tesis sobre "Lesiones musculares en el fútbol de élite". En 2022 defendí mi tesis "Protocolo de prevención de lesiones musculares en el fútbol de élite" para obtener mi diplomatura en ciencias del entrenamiento de la Universidad de Rafaela.</p>
+                </div>
+            </div>
+            <div class="sobreNosotrosResponsive__container2">
+                <p>En 2014 comence a trabajar en las divisiones juveniles de Argentinos Juniors, para luego ser kinesiologo de la Primera Division, participando en el Torneo Local y Copa Sudamericana. En 2020 tuve la oportunidad de trabajar en el Club Atlético Platense, siendo el kinesiólogo del plantel profesional en La Liga Nacional de básquet desde la temporada 2020-2021 hasta la temporada 2022-2023. En la actualidad me encuentro trabajando con las selecciones juveniles de fútbol de Venezuela. En 2023 pude cumplir uno de mis mayores sueños, participe de la <b>Copa del Mundo Sub-17 en Indonesia</b>.</p>
+                <img src="./img/emilianoDirigiendoAjustada.png" alt="emiliano dirigiendo">
+            </div>
+        </div>
+        <div class="sobre_nosotros-subtitulo">
+            <h2>SOBRE NOSOTROS</h2>
+            <hr class="linea">
+            <div class="sobre_nosotros-pantalladividida">
+                <p class="parrafo1">Somos un consultorio de kinesiología especializado en traumatología y deporte, en el que buscamos
+                    brindar un servicio de calidad en la resolución de las patologías tanto del aparato locomotor como
+                    de la columna y lesiones deportivas.</p>
+                <p class="parrafo2"> Evaluaciones funcionales Isométricas de fuerza y funcionales.</p>
+                <span class="hidesn" id="contenidoAdicional1">
+                    <p> Deportología - Tratamiento en todo tipo de lesiones deportivas, prevención de lesiones,
+                        ejercicios de campo para cada tipo de lesión en grupos o individuales para la vuelta a la
+                        competencia. Planes de trabajo individualizados.</p>
+                    <p> Prevention Program - Programa Preventivo de lesiones para toda clase de deportista.</p>
+                    <p> Recovery Program - Programa de recuperación post entrenamiento o competencia, para que te
+                        recuperes al 100% del esfuerzo.</p>
+                    <p> Mep Sport Concept - Para tendinopatías crónicas, lesiones musculares, contracturas, etc.</p>
+                    <p> Kinesiología a distancia de manera on-line - Con seguimiento semanal, rutina de ejercicios y un
+                        cuestionario para realizar la individualización del plan de tratamiento.</p>
+                </span>
+                <button class="boton" id="verMasBtn1"
+                    onclick="mostrarContenidoAdicional('contenidoAdicional1', 'verMenosBtn1', 'verMasBtn1')">Ver
+                    más</button>
+                <button class="boton" id="verMenosBtn1"
+                    onclick="ocultarContenidoAdicional('contenidoAdicional1', 'verMenosBtn1', 'verMasBtn1')">Ver
+                    menos</button>
+
+            </div>
+        </div>
+
+        <div class="sobre_nosotros-staff">
+            <h3>STAFF</h3>
+            <hr class="lineastaff">
+            <h4>Licenciado Emiliano Urruchúa</h4>
+
+            <div class="parrafostaff">
+                <p>Egresado de la Universidad Fundación H. A. Barceló en el año 2011. En 2014 culminé mis estudios en el
+                    Posgrado en la Universidad Favaloro siendo Especialista en lesiones del deporte, defendiendo mi
+                    tesis sobre "Lesiones musculares en el fútbol de élite". En 2022 defendí mi tesis "Protocolo de
+                    prevención de lesiones musculares en el fútbol de élite" para obtener mi diplomatura en ciencias del
+                    entrenamiento de la Universidad de Rafaela.</p>
+                <p>Comencé mi carrera en el mundo del deporte siendo muy joven en la Primera división D en dos equipos
+                    de fútbol: Club Social San Martin de Burzaco y Leandro N. Alem. Posterior a esas dos experiencias me
+                    introduje en el mundo del básquet al trabajar durante una temporada con I.C.D Pedro Echagüe en el
+                    Torneo Federal.</p>
+                <span class="esconderstaff" id="contenidoAdicional2">
+                    <p>En 2014 formé parte del cuerpo médico de la A.A. Argentinos Juniors, comenzando mi carrera como
+                        encargado de las divisiones inferiores y del plantel de reserva.</p>
+                    <p>En 2015 comencé a formar parte del Staff de la primera división como kinesiólogo del Plantel
+                        Profesional, participando en distintos torneos de prestigio nacional e internacional como la
+                        Copa Sudamericana, Copa Argentina, Copa de la Superliga, Superliga, etc.</p>
+                    <p>En 2020 tuve la oportunidad de trabajar en el Club Atlético Platense, siendo el kinesiólogo del
+                        plantel profesional en La Liga Nacional de básquet desde la temporada 2020-2021 hasta la
+                        temporada 2022-2023.</p>
+                    <p>En la actualidad me encuentro trabajando con las selecciones juveniles de fútbol de Venezuela. En
+                        2023 pude cumplir uno de mis mayores sueños, participe de la <b>Copa del Mundo sub-17 en
+                            Indonesia</b>. </p>
+                    <p>Profesional de consulta y rehabilitación de deportistas profesionales de distintas disciplinas
+                        deportivas de élite como son el tenis, Básquet, Boxeo.</p>
+                </span>
+
+                <button class="boton" id="verMasBtn2"
+                    onclick="mostrarContenidoAdicional('contenidoAdicional2', 'verMenosBtn2', 'verMasBtn2')">Ver
+                    más</button>
+                <button class="boton" id="verMenosBtn2"
+                    onclick="ocultarContenidoAdicional('contenidoAdicional2', 'verMenosBtn2', 'verMasBtn2')">Ver
+                    menos</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="coberturas">
+        <h2 class="titulocoberturas">COBERTURAS</h2>
+        <hr class="lineacoberturas">
+        <div class="coberturascolumnas">
+            <div class="coberturasResponsive">
+                <img src="img/swissmeidcal.png" alt="">
+                <img src="img/omint.jpg" alt="">
+                <img src="img/osde.png" alt="">
+            </div>
+            <div class="columnaomint">
+                <img id="img1" src="img/omint.jpg">
+                <div class="textoomint">
+                    <p>OMINT - Cobertura con todos los planes.</p>
+                </div>
+                <img id="img2" src="img/osde.png">
+                <div class="textoosde">
+                    <p>OSDE - Cobertura con todos los planes.</p>
+                </div>
+            </div>
+            <div class="columnaosppra">
+                <img id="img3" src="img/osppra2.png">
+                <div class="textoosppra">
+                    <p>OSPPRA - Cobertura con todos los planes.</p>
+                </div>
+
+                <img id="img4" src="img/swissmeidcal.png">
+                <div class="textoswissmedical">
+                    <p>SWISS MEDICAL - Cobertura con todos los planes.</p>
+                </div>
+            </div>
+        </div>
+
+        <p id="parrafo-cobertura">Si no encuentra su cobertura, contamos con atención particular</p>
+
+
+    </section>
+
+    <section id="contacto">
+        <h2 class="titulocontacto">CONTACTO</h2>
+        <hr class="lineacontacto">
+        <div class="columnas-contacto">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3782867845393!2d-58.463991824551535!3d-34.543976272975776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb420ebeffa0b%3A0x19fbc6b0f144fa4!2sArribe%C3%B1os%203728%2C%20C1429%20CABA!5e0!3m2!1ses!2sar!4v1686091195148!5m2!1ses!2sar"
+                width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="filas-contacto">
+                <div class="granContainer">
+                    <span class="parrafocontacto">
+                        <p>Dirección - Arribeños 3728 1B, Núñez- CABA.</p>
+                        
+                    </span>
+                    <div class="redesContainer">
+                        <span id="redes">
+                            <a href="https://wa.me/5491173669695"><img id="wapp"  class="logos" src="./img/redesSociales/logo_wapp.png"  /></a>
+                            <p>Teléfono - +5491173669695</p>
+                        </span>
+                        <span id="redes">
+                            <a href="https://www.instagram.com/santekinesiologia/?hl=en"><img id="instagram" class="logos" src="./img/redesSociales/logo-instagram.webp" /></a>
+                            <p>@santekinesiologia</p>
+                        </span>
+                        <span id="redes">
+                            <a href="https://www.facebook.com/kinesiologiasante?locale=es_LA"><img id="facebook" class="logos" src="./img/redesSociales/logo-facebooksvg.png"/></a>
+                            <p>Centro Integral de Kinesiología " Santé "</p>
+                        </span>
+                        <span id="redes">
+                            <a href="mailto:kinesiologiasante@gmail.com?Subject=Deseo%20hacer%20una%20consulta"><img id="gmail" class="logos" src="./img/redesSociales/logo_gmail.png"/></a>
+                            <p>kinesiologiasante@gmail.com</p>
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- <form id="formulario" action=mailto:amanda.brousson@gmail.com method="post" enctype="text/plain">
+                    <div class="itemsformulario">
+                        <p>Nombre:</p>
+                        <input type="text" id="name" name="user_name" required />
+
+                        <p>Mail:</p>
+                        <input type="email" id="mail" name="user_mail" required />
+                    </div>
+
+                    <div class="formularioconsulta">
+                        <p>Consulta:</p>
+                        <textarea id="msg" name="user_message" required></textarea>
+                    </div>
+
+                    <div class="botonenviar">
+                        <input type="submit" id=botonsend value="Enviar">
+                    </div>
+                </form> -->
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto"> ambz 2024</p>
+    </footer>
+
+    <script src="./JSS/main.js"></script>
+    <script src="./JSS/burger.js"></script>
+
+    <script>
+        verMenosBtn1.style.display = contenidoAdicional1.style.display === 'block' ? 'inline-block' : 'none';
+        verMenosBtn2.style.display = contenidoAdicional2.style.display === 'block' ? 'inline-block' : 'none';
+
+        function mostrarContenidoAdicional(idContenido, idBotonMenos, idBotonMas) {
+            var contenidoAdicional = document.getElementById(idContenido);
+            contenidoAdicional.style.display = 'block';
+            document.getElementById(idBotonMenos).style.display = 'inline-block';
+            document.getElementById(idBotonMas).style.display = 'none';
+            ajustarMargenSuperior();
+        }
+
+        function ocultarContenidoAdicional(idContenido, idBotonMenos, idBotonMas) {
+            var contenidoAdicional = document.getElementById(idContenido);
+            contenidoAdicional.style.display = 'none';
+            document.getElementById(idBotonMenos).style.display = 'none';
+            document.getElementById(idBotonMas).style.display = 'block';
+            ajustarMargenSuperior();
+        }
+
+        function ajustarMargenSuperior() {
+            var contenidoAdicional1 = document.getElementById('contenidoAdicional1');
+            var contenidoAdicional2 = document.getElementById('contenidoAdicional2');
+            var verMenosBtn1 = document.getElementById('verMenosBtn1');
+            var verMenosBtn2 = document.getElementById('verMenosBtn2');
+
+            var alturaTotal = contenidoAdicional1.offsetHeight + contenidoAdicional2.offsetHeight;
+            //   document.getElementById('coberturas').style.marginTop = alturaTotal + 'px';
+
+            // Mostrar u ocultar el botón "Ver menos" según la visibilidad del contenido adicional
+        }
+
+        let currentSlide1 = 0;
+        const slides1 = document.querySelectorAll('.img_carrousel');
+        const slidesPerPage1 = 4;
+
+        function showSlide1(index) {
+            slides1.forEach((slide, i) => {
+                const isVisible = i >= index && i < index + slidesPerPage1;
+                slide.style.display = isVisible ? 'block' : 'none';
+            });
+            currentSlide1 = index;
+        }
+
+        function prevSlide1() {
+            const totalSlides1 = slides1.length;
+            currentSlide1 = (currentSlide1 - slidesPerPage1 + totalSlides1) % totalSlides1;
+            showSlide1(currentSlide1);
+        }
+
+        function nextSlide1() {
+            const totalSlides1 = slides1.length;
+            currentSlide1 = (currentSlide1 + slidesPerPage1) % totalSlides1;
+            showSlide1(currentSlide1);
+        }
+
+        // popup2
+
+        let currentSlide2 = 0;
+        const slides2 = document.querySelectorAll('.img_carrousel2');
+        const slidesPerPage2 = 4;
+
+        function showSlide2(index) {
+            slides2.forEach((slide, i) => {
+                const isVisible = i >= index && i < index + slidesPerPage2;
+                slide.style.display = isVisible ? 'block' : 'none';
+            });
+            currentSlide2 = index;
+        }
+
+        function prevSlide2() {
+            const totalSlides = slides2.length;
+            currentSlide2 = (currentSlide2 - slidesPerPage2 + totalSlides) % totalSlides;
+            showSlide2(currentSlide2);
+        }
+
+        function nextSlide2() {
+            const totalSlides = slides2.length;
+            currentSlide2 = (currentSlide2 + slidesPerPage2) % totalSlides;
+            showSlide2(currentSlide2);
+        }
+
+        // popup3
+        let currentSlide3 = 0;
+        const slides3 = document.querySelectorAll('.img_carrousel3');
+        const slidesPerPage3 = 3;
+
+        function showSlide3(index) {
+            slides3.forEach((slide, i) => {
+                const isVisible = i >= index && i < index + slidesPerPage3;
+                slide.style.display = isVisible ? 'block' : 'none';
+            });
+            currentSlide3 = index;
+        }
+
+        /*   function prevSlide3() {
+              const totalSlides = slides3.length;
+              currentSlide3 = (currentSlide3 - slidesPerPage3 + totalSlides) % totalSlides;
+              showSlide3(currentSlide3);
+          }
+      
+          function nextSlide3() {
+              const totalSlides = slides3.length;
+              currentSlide3 = (currentSlide3 + slidesPerPage3) % totalSlides;
+              showSlide3(currentSlide3);
+          } */
+
+        // popup4
+        let currentSlide4 = 0;
+        const slides4 = document.querySelectorAll('.img_carrousel4');
+        const slidesPerPage4 = 3;
+
+        function showSlide4(index) {
+            slides4.forEach((slide, i) => {
+                const isVisible = i >= index && i < index + slidesPerPage4;
+                slide.style.display = isVisible ? 'block' : 'none';
+            });
+            currentSlide4 = index;
+        }
+
+        // const abrirMenu = () =>{
+        //     const navBurger = document.querySelectorAll('#navBurger')
+        //     navBurger.classList.add('visible')
+        // }
+
+
+
+    </script>
+</body>
+
+</html>
