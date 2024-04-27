@@ -73,6 +73,8 @@ header {
         background-color: #15cdca;
         color: black;
         border-radius: 10px; }
+      header .navegador__indice .navList__serviciosResponsive {
+        display: none; }
 
 @media screen and (max-width: 465px) {
   body {
@@ -135,6 +137,8 @@ header {
           margin: 0; }
           body header .navegador__indice .navList__Servicios {
             display: none; }
+          body header .navegador__indice .navList__serviciosResponsive {
+            display: flex; }
           body header .navegador__indice .navList a:hover {
             background-color: transparent;
             color: white; }
