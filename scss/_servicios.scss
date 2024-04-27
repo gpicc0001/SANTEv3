@@ -1,3 +1,6 @@
+#serviciosResponsive{
+    display: none;
+}
 .servicios {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -659,5 +662,137 @@
    #servicios{
     display: none;
    }
+   #serviciosResponsive{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(3, 4, 94, 1);
+    justify-content: center;
+    .serviciosResponsive__titulo{
+        text-align: center;
+        color: rgba(72, 202, 228, 1);
+        font-size: 4rem;
+    }
+    .serviciosResponsive__kinesiologiaContainer{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        .serviciosResponsive__tituloKinesiologia{
+            color: rgba(202, 240, 248, 1);
+            position: absolute;
+            z-index: 1;
+            margin-top: 212px;
+            margin-bottom: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .serviciosResponsive__kinesiologia{
+            aspect-ratio:  10/16;
+            width: 265px;
+            position: relative;
+            display: flex;
+            overflow:scroll;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                left: 0;
+                position: sticky;
+                object-fit: cover;
+                border-radius: 5px;
+                scroll-snap-align: center;
+            }
+        }
+    }
+    .serviciosResponsive__kinesiologiaDeportivaContainer{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        .serviciosResponsive__tituloKinesiologiaDeportiva{
+            color: rgba(202, 240, 248, 1);
+            position: absolute;
+            z-index: 1;
+            margin-top: 212px;
+            margin-bottom: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .serviciosResponsive__kinesiologiaDeportiva{
+            aspect-ratio:  10/16;
+            width: 265px;
+            position: relative;
+            display: flex;
+            overflow:scroll;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                left: 0;
+                position: sticky;
+                object-fit: cover;
+                border-radius: 5px;
+                scroll-snap-align: center;
+            }
+        }
+        }
+    .serviciosResponsive__mepSportConceptContainer{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        .serviciosResponsive__titulomepSportConcept{
+            color: rgba(202, 240, 248, 1);
+            position: absolute;
+            z-index: 1;
+            margin-top: 212px;
+            margin-bottom: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .serviciosResponsive__mepSportConcept{
+            aspect-ratio:  10/16;
+            width: 265px;
+            position: relative;
+            display: flex;
+            overflow:scroll;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                left: 0;
+                position: sticky;
+                object-fit: cover;
+                border-radius: 5px;
+                scroll-snap-align: center;
+            }
+        }
+    }
+    .serviciosResponsive__SnaIntegrativoContainer{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        .serviciosResponsive__tituloSnaIntegrativo{
+            color: rgba(202, 240, 248, 1);
+            position: absolute;
+            z-index: 1;
+            margin-top: 212px;
+            margin-bottom: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .serviciosResponsive__snaIntegrativo{
+            aspect-ratio:  10/16;
+            width: 265px;
+            position: relative;
+            display: flex;
+            overflow:scroll;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                left: 0;
+                position: sticky;
+                object-fit: cover;
+                border-radius: 5px;
+                scroll-snap-align: center;
+            }
+        }
+    }
 
+   }
 }
