@@ -70,3 +70,26 @@ const observador = new IntersectionObserver(cargarImagen, {
 
 observador.observe(imagen1)
 observador.observe(imagen2)
+
+
+//DESPLAZAMIENTO VERTICAL CARDS SERVICIOS
+
+const tituloKinesio = document.getElementById('serviciosResponsive__tituloKinesiologia')
+const containerKinesio = document.getElementById('serviciosResponsive__kinesiologia')
+
+const cardsMovement = () => {
+
+    if (containerKinesio.classList.contains('desplazamiento') && tituloKinesio.classList.contains('efectoTitulo')) {
+
+        containerKinesio.classList.remove('desplazamiento')
+        tituloKinesio.classList.remove('efectoTitulo')
+
+    } else {
+        containerKinesio.classList.add('desplazamiento')
+        tituloKinesio.classList.add('efectoTitulo')
+
+        
+    }
+}
+
+tituloKinesio.addEventListener('click', cardsMovement)

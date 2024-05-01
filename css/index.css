@@ -738,18 +738,23 @@ header {
       #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__tituloKinesiologia {
         color: #caf0f8;
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         margin-top: 212px;
         margin-bottom: 0;
         font-size: 24px;
-        font-weight: bold; }
+        font-weight: bold;
+        transition: opacity 1s ease; }
+      #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .efectoTitulo {
+        opacity: 0; }
       #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia {
         aspect-ratio: 10/16;
         width: 265px;
         position: relative;
         display: flex;
         overflow: scroll;
-        scroll-snap-type: x mandatory; }
+        z-index: 1;
+        scroll-snap-type: x mandatory;
+        transition: transform 1s ease, opacity 1s ease; }
         #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia img {
           width: 100%;
           left: 0;
@@ -757,6 +762,20 @@ header {
           object-fit: cover;
           border-radius: 5px;
           scroll-snap-align: center; }
+      #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .desplazamiento {
+        transform: translateY(-100px);
+        opacity: 0; }
+      #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__parrafoKinesiologiaContainer {
+        margin: 0;
+        width: 265px;
+        height: 454px;
+        z-index: 0;
+        position: absolute; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__parrafoKinesiologiaContainer .serviciosResponsive__parrafoKinesiologia {
+          margin: 0;
+          scale: 0.8;
+          font-size: 24px;
+          color: #caf0f8; }
     #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer {
       display: flex;
       justify-content: center;

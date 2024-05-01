@@ -680,11 +680,15 @@
         .serviciosResponsive__tituloKinesiologia{
             color: rgba(202, 240, 248, 1);
             position: absolute;
-            z-index: 1;
+            z-index: 2;
             margin-top: 212px;
             margin-bottom: 0;
             font-size: 24px;
             font-weight: bold;
+            transition: opacity 1s ease;
+        }
+        .efectoTitulo{
+            opacity: 0;
         }
         .serviciosResponsive__kinesiologia{
             aspect-ratio:  10/16;
@@ -692,7 +696,10 @@
             position: relative;
             display: flex;
             overflow:scroll;
+            z-index: 1;
             scroll-snap-type: x mandatory;
+            transition: transform 1s ease,
+                        opacity 1s ease;
             img{
                 width: 100%;
                 left: 0;
@@ -700,6 +707,24 @@
                 object-fit: cover;
                 border-radius: 5px;
                 scroll-snap-align: center;
+            }
+        }
+        .desplazamiento{
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        .serviciosResponsive__parrafoKinesiologiaContainer{
+            margin: 0;
+            width: 265px;
+            height: 454px;
+            z-index: 0;
+            position: absolute;
+            .serviciosResponsive__parrafoKinesiologia{
+                margin: 0;
+                scale: 0.8;
+                font-size: 24px;
+                color: rgba(202, 240, 248, 1);
+                
             }
         }
     }
