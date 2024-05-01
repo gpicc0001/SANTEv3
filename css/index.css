@@ -744,8 +744,6 @@ header {
         font-size: 24px;
         font-weight: bold;
         transition: opacity 1s ease; }
-      #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .efectoTitulo {
-        opacity: 0; }
       #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia {
         aspect-ratio: 10/16;
         width: 265px;
@@ -762,9 +760,6 @@ header {
           object-fit: cover;
           border-radius: 5px;
           scroll-snap-align: center; }
-      #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .desplazamiento {
-        transform: translateY(-100px);
-        opacity: 0; }
       #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__parrafoKinesiologiaContainer {
         margin: 0;
         width: 265px;
@@ -783,18 +778,21 @@ header {
       #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__tituloKinesiologiaDeportiva {
         color: #caf0f8;
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         margin-top: 212px;
         margin-bottom: 0;
         font-size: 24px;
-        font-weight: bold; }
+        font-weight: bold;
+        transition: opacity 1s ease; }
       #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__kinesiologiaDeportiva {
         aspect-ratio: 10/16;
         width: 265px;
         position: relative;
         display: flex;
+        z-index: 1;
         overflow: scroll;
-        scroll-snap-type: x mandatory; }
+        scroll-snap-type: x mandatory;
+        transition: transform 1s ease, opacity 1s ease; }
         #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__kinesiologiaDeportiva img {
           width: 100%;
           left: 0;
@@ -802,6 +800,17 @@ header {
           object-fit: cover;
           border-radius: 5px;
           scroll-snap-align: center; }
+      #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__parrafoKinesiologiaDeportivaContainer {
+        margin: 0;
+        width: 265px;
+        height: 454px;
+        z-index: 0;
+        position: absolute; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__parrafoKinesiologiaDeportivaContainer .serviciosResponsive__parrafoKinesiologiaDeportiva {
+          margin: 0;
+          scale: 0.8;
+          font-size: 24px;
+          color: #caf0f8; }
     #serviciosResponsive .serviciosResponsive__mepSportConceptContainer {
       display: flex;
       justify-content: center;
@@ -809,18 +818,21 @@ header {
       #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__titulomepSportConcept {
         color: #caf0f8;
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         margin-top: 212px;
         margin-bottom: 0;
         font-size: 24px;
-        font-weight: bold; }
+        font-weight: bold;
+        transition: opacity 1s ease; }
       #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__mepSportConcept {
         aspect-ratio: 10/16;
         width: 265px;
         position: relative;
         display: flex;
+        z-index: 1;
         overflow: scroll;
-        scroll-snap-type: x mandatory; }
+        scroll-snap-type: x mandatory;
+        transition: transform 1s ease, opacity 1s ease; }
         #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__mepSportConcept img {
           width: 100%;
           left: 0;
@@ -828,6 +840,17 @@ header {
           object-fit: cover;
           border-radius: 5px;
           scroll-snap-align: center; }
+      #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__parrafomepSportConceptContainer {
+        margin: 0;
+        width: 265px;
+        height: 454px;
+        z-index: 0;
+        position: absolute; }
+        #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__parrafomepSportConceptContainer .serviciosResponsive__parrafoMepSportConcept {
+          margin: 0;
+          scale: 0.8;
+          font-size: 18px;
+          color: #caf0f8; }
     #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer {
       display: flex;
       justify-content: center;
@@ -835,25 +858,46 @@ header {
       #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__tituloSnaIntegrativo {
         color: #caf0f8;
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         margin-top: 212px;
         margin-bottom: 0;
         font-size: 24px;
-        font-weight: bold; }
+        font-weight: bold;
+        transition: opacity 1s ease; }
       #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__snaIntegrativo {
         aspect-ratio: 10/16;
         width: 265px;
+        z-index: 1;
         position: relative;
         display: flex;
         overflow: scroll;
-        scroll-snap-type: x mandatory; }
+        scroll-snap-type: x mandatory;
+        transition: transform 1s ease, opacity 1s ease; }
         #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__snaIntegrativo img {
           width: 100%;
           left: 0;
           position: sticky;
           object-fit: cover;
           border-radius: 5px;
-          scroll-snap-align: center; } }
+          scroll-snap-align: center; }
+      #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__parrafoSnaInteractivoContainer {
+        margin: 0;
+        width: 265px;
+        height: 454px;
+        z-index: 0;
+        position: absolute;
+        display: flex;
+        align-items: start; }
+        #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__parrafoSnaInteractivoContainer .serviciosResponsive__parrafoSnaInteractivo {
+          margin: 0;
+          scale: 0.8;
+          font-size: 17px;
+          color: #caf0f8; }
+    #serviciosResponsive .desplazamiento {
+      transform: translateY(-100px);
+      opacity: 0; }
+    #serviciosResponsive .efectoTitulo {
+      opacity: 0; } }
 
 .sobre_nosotros {
   background: linear-gradient(90deg, #020024 0%, #093179 36%, #00d4ff 100%);

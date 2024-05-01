@@ -77,7 +77,20 @@ observador.observe(imagen2)
 const tituloKinesio = document.getElementById('serviciosResponsive__tituloKinesiologia')
 const containerKinesio = document.getElementById('serviciosResponsive__kinesiologia')
 
-const cardsMovement = () => {
+const tituloKinesioDepo = document.getElementById('serviciosResponsive__tituloKinesiologiaDeportiva')
+const containerKinesioDepo = document.getElementById('serviciosResponsive__kinesiologiaDeportiva')
+
+const tituloMEP = document.getElementById('serviciosResponsive__titulomepSportConcept')
+const containerMEP = document.getElementById('serviciosResponsive__mepSportConcept')
+
+const tituloSNA = document.getElementById('serviciosResponsive__tituloSnaIntegrativo')
+const containerSNA = document.getElementById('serviciosResponsive__snaIntegrativo')
+
+
+
+
+
+const cardsMovement1 = () => {
 
     if (containerKinesio.classList.contains('desplazamiento') && tituloKinesio.classList.contains('efectoTitulo')) {
 
@@ -86,10 +99,48 @@ const cardsMovement = () => {
 
     } else {
         containerKinesio.classList.add('desplazamiento')
-        tituloKinesio.classList.add('efectoTitulo')
-
-        
+        tituloKinesio.classList.add('efectoTitulo')        
     }
 }
 
-tituloKinesio.addEventListener('click', cardsMovement)
+const cardsMovement2 = () => {
+    if (containerKinesioDepo.classList.contains('desplazamiento') && tituloKinesioDepo.classList.contains('efectoTitulo')) {
+
+        containerKinesioDepo.classList.remove('desplazamiento')
+        tituloKinesioDepo.classList.remove('efectoTitulo')
+
+    } else {
+        containerKinesioDepo.classList.add('desplazamiento')
+        tituloKinesioDepo.classList.add('efectoTitulo')
+    }
+}
+const cardsMovement3 = () => {
+    if (containerMEP.classList.contains('desplazamiento') && tituloMEP.classList.contains('efectoTitulo')) {
+
+        containerMEP.classList.remove('desplazamiento')
+        tituloMEP.classList.remove('efectoTitulo')
+
+    } else {
+        containerMEP.classList.add('desplazamiento')
+        tituloMEP.classList.add('efectoTitulo')
+    }
+}
+
+const cardsMovement4 = () => {
+    if (containerSNA.classList.contains('desplazamiento') && tituloSNA.classList.contains('efectoTitulo')) {
+
+        containerSNA.classList.remove('desplazamiento')
+        tituloSNA.classList.remove('efectoTitulo')
+
+    } else {
+
+        containerSNA.classList.add('desplazamiento')
+        tituloSNA.classList.add('efectoTitulo')
+    }
+}
+
+tituloKinesio.addEventListener('click', cardsMovement1)
+tituloKinesioDepo.addEventListener('click', cardsMovement2)
+tituloMEP.addEventListener('click', cardsMovement3)
+tituloSNA.addEventListener('click', cardsMovement4)
+
