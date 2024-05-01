@@ -139,7 +139,9 @@
 
 
 @media (max-width: 465px){
-
+    .sobre_nosotros{
+        border-radius: 0;
+    }
     #sobre_nosotros{
         background: linear-gradient(rgba(3, 4, 94, 1), rgba(0, 119, 182, 1) );
         margin: 0;
@@ -150,6 +152,7 @@
             display: flex;
             flex-direction: column;
             width: auto;
+            
             h3{
                 font-size: 20px;
                 font-family: oswald;
@@ -167,6 +170,18 @@
                     width: 50%;
                     // height: inherit
                     height: 50%;
+                    opacity: 0;
+                    transform: scale(0.9);
+                    transition: .7s ease-in-out all;
+                    border-radius: 15px;
+                    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+                }
+                img.izquierda{
+                    transform: translateX(-100px);
+                }
+                img.visible{
+                    opacity: 1;
+                    transform: scale(1) translateX(0);
                 }
                 &__contenido1{
                     color: white;
@@ -190,7 +205,18 @@
                     width: 50%;
                     // height: inherit;
                     height: 50%;
-
+                    opacity: 0;
+                    transform: scale(0.9);
+                    transition: .7s ease-in-out all;
+                    border-radius: 15px;
+                    box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.25);
+                }
+                img.derecha{
+                    transform: translateX(100px);
+                }
+                img.visible{
+                    opacity: 1;
+                    transform: scale(1) translateX(0);
                 }
             }
         }
