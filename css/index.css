@@ -1227,7 +1227,8 @@ header {
 @media (max-width: 465px) {
   #coberturas {
     height: 400px;
-    background: linear-gradient(#0077b6, #023e8a); }
+    background: linear-gradient(#0077b6, #023e8a);
+    padding: 0px 10px 0px 10px; }
     #coberturas h2 {
       font-size: 24px;
       color: #48cae4; }
@@ -1240,8 +1241,8 @@ header {
         justify-content: space-evenly;
         width: 100%; }
         #coberturas .coberturascolumnas .coberturasResponsive img {
-          width: 112px;
-          height: 112px; }
+          width: auto;
+          height: 45%; }
       #coberturas .coberturascolumnas .columnaomint {
         display: none; }
       #coberturas .coberturascolumnas .columnaosppra {
