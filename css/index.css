@@ -752,7 +752,16 @@ header {
         overflow: scroll;
         z-index: 1;
         scroll-snap-type: x mandatory;
-        transition: transform 1s ease, opacity 1s ease; }
+        transition: transform 1s ease, opacity 1s ease;
+        overflow-y: hidden; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia::-webkit-scrollbar {
+          height: 5px; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia::-webkit-scrollbar-track {
+          background-color: #03045e; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia::-webkit-scrollbar-thumb {
+          background: #1d7392;
+          border-radius: 8px;
+          width: 2px; }
         #serviciosResponsive .serviciosResponsive__kinesiologiaContainer .serviciosResponsive__kinesiologia img {
           width: 100%;
           left: 0;
@@ -792,7 +801,16 @@ header {
         z-index: 1;
         overflow: scroll;
         scroll-snap-type: x mandatory;
-        transition: transform 1s ease, opacity 1s ease; }
+        transition: transform 1s ease, opacity 1s ease;
+        overflow-y: hidden; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__kinesiologiaDeportiva::-webkit-scrollbar {
+          height: 5px; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__kinesiologiaDeportiva::-webkit-scrollbar-track {
+          background-color: #03045e; }
+        #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__kinesiologiaDeportiva::-webkit-scrollbar-thumb {
+          background: #1d7392;
+          border-radius: 8px;
+          width: 2px; }
         #serviciosResponsive .serviciosResponsive__kinesiologiaDeportivaContainer .serviciosResponsive__kinesiologiaDeportiva img {
           width: 100%;
           left: 0;
@@ -832,7 +850,16 @@ header {
         z-index: 1;
         overflow: scroll;
         scroll-snap-type: x mandatory;
-        transition: transform 1s ease, opacity 1s ease; }
+        transition: transform 1s ease, opacity 1s ease;
+        overflow-y: hidden; }
+        #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__mepSportConcept::-webkit-scrollbar {
+          height: 5px; }
+        #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__mepSportConcept::-webkit-scrollbar-track {
+          background-color: #03045e; }
+        #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__mepSportConcept::-webkit-scrollbar-thumb {
+          background: #1d7392;
+          border-radius: 8px;
+          width: 2px; }
         #serviciosResponsive .serviciosResponsive__mepSportConceptContainer .serviciosResponsive__mepSportConcept img {
           width: 100%;
           left: 0;
@@ -872,27 +899,36 @@ header {
         display: flex;
         overflow: scroll;
         scroll-snap-type: x mandatory;
-        transition: transform 1s ease, opacity 1s ease; }
-        #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__snaIntegrativo img {
-          width: 100%;
-          left: 0;
-          position: sticky;
-          object-fit: cover;
-          border-radius: 5px;
-          scroll-snap-align: center; }
-      #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__parrafoSnaInteractivoContainer {
+        transition: transform 1s ease, opacity 1s ease;
+        overflow-y: hidden; }
+        #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__snaIntegrativo::-webkit-scrollbar {
+          height: 5px; }
+        #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__snaIntegrativo::-webkit-scrollbar-track {
+          background-color: #03045e; }
+        #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__snaIntegrativo::-webkit-scrollbar-thumb {
+          background: #1d7392;
+          border-radius: 8px;
+          width: 2px; }
+      #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer img {
+        width: 100%;
+        left: 0;
+        position: sticky;
+        object-fit: cover;
+        border-radius: 5px;
+        scroll-snap-align: center; }
+    #serviciosResponsive .serviciosResponsive__parrafoSnaInteractivoContainer {
+      margin: 0;
+      width: 265px;
+      height: 454px;
+      z-index: 0;
+      position: absolute;
+      display: flex;
+      align-items: start; }
+      #serviciosResponsive .serviciosResponsive__parrafoSnaInteractivoContainer .serviciosResponsive__parrafoSnaInteractivo {
         margin: 0;
-        width: 265px;
-        height: 454px;
-        z-index: 0;
-        position: absolute;
-        display: flex;
-        align-items: start; }
-        #serviciosResponsive .serviciosResponsive__SnaIntegrativoContainer .serviciosResponsive__parrafoSnaInteractivoContainer .serviciosResponsive__parrafoSnaInteractivo {
-          margin: 0;
-          scale: 0.8;
-          font-size: 17px;
-          color: #caf0f8; }
+        scale: 0.8;
+        font-size: 17px;
+        color: #caf0f8; }
     #serviciosResponsive .desplazamiento {
       transform: translateY(-100px);
       opacity: 0; }

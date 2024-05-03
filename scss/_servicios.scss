@@ -698,6 +698,22 @@
             scroll-snap-type: x mandatory;
             transition: transform 1s ease,
                         opacity 1s ease;
+                        overflow-y: hidden;
+            &::-webkit-scrollbar{
+                height: 5px;
+                // background-color: #10162c;
+                
+            }
+        
+            &::-webkit-scrollbar-track{
+                background-color: rgba(3, 4, 94, 1);
+            }
+            
+            &::-webkit-scrollbar-thumb{
+                background: #1d7392;
+                border-radius:  8px;
+                width: 2px;
+            }
             img{
                 width: 100%;
                 left: 0;
@@ -747,6 +763,22 @@
             scroll-snap-type: x mandatory;
             transition: transform 1s ease,
                         opacity 1s ease;
+            overflow-y: hidden;
+            &::-webkit-scrollbar{
+                height: 5px;
+                // background-color: #10162c;
+                
+            }
+        
+            &::-webkit-scrollbar-track{
+                background-color: rgba(3, 4, 94, 1);
+            }
+            
+            &::-webkit-scrollbar-thumb{
+                background: #1d7392;
+                border-radius:  8px;
+                width: 2px;
+            }
             img{
                 width: 100%;
                 left: 0;
@@ -795,6 +827,22 @@
             scroll-snap-type: x mandatory;
             transition: transform 1s ease,
                         opacity 1s ease;
+            overflow-y: hidden;
+            &::-webkit-scrollbar{
+                height: 5px;
+                // background-color: #10162c;
+                
+            }
+        
+            &::-webkit-scrollbar-track{
+                background-color: rgba(3, 4, 94, 1);
+            }
+            
+            &::-webkit-scrollbar-thumb{
+                background: #1d7392;
+                border-radius:  8px;
+                width: 2px;
+            }
             img{
                 width: 100%;
                 left: 0;
@@ -843,6 +891,26 @@
             scroll-snap-type: x mandatory;
             transition: transform 1s ease,
                         opacity 1s ease;
+            overflow-y: hidden;
+            &::-webkit-scrollbar{
+                height: 5px;
+                // background-color: #10162c;
+                
+            }
+        
+            &::-webkit-scrollbar-track{
+                background-color: rgba(3, 4, 94, 1);
+            }
+            
+            &::-webkit-scrollbar-thumb{
+                background: #1d7392;
+                border-radius:  8px;
+                width: 2px;
+            }
+        }
+            // &::-webkit-scrollbar-thumb:hover{
+            //     background: #4d4b4b;           
+            // }
             img{
                 width: 100%;
                 left: 0;
@@ -851,6 +919,7 @@
                 border-radius: 5px;
                 scroll-snap-align: center;
             }
+       
         }
         .serviciosResponsive__parrafoSnaInteractivoContainer{
             margin: 0;
@@ -867,7 +936,7 @@
                 color: rgba(202, 240, 248, 1);
                 
             }
-        }
+        
     }
     .desplazamiento{
         transform: translateY(-100px);
